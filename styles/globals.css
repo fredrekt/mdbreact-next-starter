@@ -53,3 +53,29 @@ h1, h2, h3, h4, h5, h6, strong, b, .display-1, .display-2, .display-3, .display-
   transform: scaleX(1);
 }
 /* Navbar Styles Ends */
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 540px) { 
+  .nav-item > a, i {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+}

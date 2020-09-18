@@ -12,11 +12,11 @@ const Navbar = () => {
     return(
       <div className="mb-5 pb-5">
           <header>
-            <MDBNavbar dark expand="md" color="white" scrolling fixed="top">
+            <MDBNavbar light expand="md" color="white" scrolling fixed="top">
               <Link href="/">
                   <img src="/assets/images/logo.png" className="navbar-logo" alt=""/>
               </Link>
-              <MDBNavbarToggler onClick={()=>onClick} />
+              <MDBNavbarToggler onClick={onClick} />
               <MDBCollapse isOpen={collapse} navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
