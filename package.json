@@ -1,5 +1,7 @@
 {
   "name": "mdbreact-next-starter",
+  "description": "A Next.js Starter bootstraped with Material Design Bootstrap.",
+  "author": "Fred Garingo <fredrickjohng7@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +11,12 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "markdown-to-jsx": "^7.0.0",
     "mdbreact": "^4.27.0",
     "next": "9.5.3",
     "nprogress": "^0.2.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-progressive-image": "^0.6.0"
   }
 }
