@@ -1,8 +1,3 @@
-/* MDBReact Imports */
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'; 
-@import '../node_modules/bootstrap-css-only/css/bootstrap.min.css'; 
-@import '../node_modules/mdbreact/dist/css/mdb.css';
-
 /* Google Fonts Imports */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 body{
