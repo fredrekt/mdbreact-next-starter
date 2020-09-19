@@ -12,3 +12,23 @@ export const getAllBlogs = graphql`
         }
     }
 `
+
+export const getSingleBlog = graphql`
+    query Blog($title: String!) {
+        blogsConnection(where: {title: $title}) {
+        edges {
+            node {
+            description
+            title
+            preview {
+                url
+            }
+            content {
+                markdown
+            }
+            id
+            }
+        }
+        }
+    }   
+`
