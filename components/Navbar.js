@@ -50,13 +50,13 @@ const Navbar = () => {
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                    <Link href="/fb"><MDBIcon fab size="lg" icon="facebook-f" /></Link>
+                    <Link href="https://www.facebook.com/fredgaringo/"><MDBIcon fab size="lg" className="cursor-pointer" icon="facebook-f" /></Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link href="/twt"><MDBIcon fab size="lg" icon="twitter" /></Link>
+                    <Link href="https://twitter.com/FredGaringo"><MDBIcon fab size="lg" className="cursor-pointer" icon="twitter" /></Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <Link href="/ig"><MDBIcon fab size="lg" icon="instagram" /></Link>
+                    <Link href="http://github.com/fredrekt"><MDBIcon fab size="lg" className="cursor-pointer" icon="github" /></Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>

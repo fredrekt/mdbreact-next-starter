@@ -58,17 +58,17 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://vercel.com/docs">
                                     <a>Vercel Docs</a>
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://www.netlify.com/">
                                     <a>Netlify Deployment</a>
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="http://github.com/fredrekt">
                                     <a>Github</a>
                                 </Link>
                             </li>
@@ -78,17 +78,17 @@ const Footer = () => {
                     <h4 className="h4-responsive mb-3">Community</h4>
                         <ul className="list-unstyled">
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://github.com/fredrekt/mdbreact-next-starter/issues">
                                     <a>Issues</a>
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://github.com/fredrekt/mdbreact-next-starter/pulls">
                                     <a>Pull Request</a>
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://github.com/fredrekt/mdbreact-next-starter">
                                     <a>Github Repository</a>
                                 </Link>
                             </li>
@@ -98,12 +98,12 @@ const Footer = () => {
                     <h4 className="h4-responsive mb-3">Support</h4>
                         <ul className="list-unstyled">
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://github.com/fredrekt/mdbreact-next-starter">
                                     <a>Star on github</a>
                                 </Link>
                             </li>
                             <li className="list-unstyled mb-2">
-                                <Link href="/">
+                                <Link href="https://ko-fi.com/J3J51VZFD">
                                     <a>Buy me coffee</a>
                                 </Link>
                             </li>

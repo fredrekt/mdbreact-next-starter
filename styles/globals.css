@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6, strong, b, .display-1, .display-2, .display-3, .display-
 }
 /* Navbar Styles Ends */
 
+.cursor-pointer{
+  cursor: pointer;
+}
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
