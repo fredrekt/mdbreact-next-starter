@@ -11,10 +11,16 @@ A NextJS Project bootstraped with [MDBReact](https://mdbootstrap.com/docs/react)
 * Progressive Image Loader
 
 ## [Live Demo](http://next-mdbreact.ga/)
+Worth a thousand words!
 
 ## Getting Started
+First step is cloning this repo
 
-First, run the development server:
+```bash
+git clone https://github.com/fredrekt/mdbreact-next-starter.git
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
