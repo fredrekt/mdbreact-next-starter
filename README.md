@@ -1,4 +1,4 @@
-# Next.js - MDBreact Starter
+# Next.js - MDBReact Starter
 A NextJS Project bootstraped with [Material Design Bootstrap ReactJS](https://mdbootstrap.com/docs/react). 
 
 ## Features 
