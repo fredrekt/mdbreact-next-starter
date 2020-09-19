@@ -1,5 +1,5 @@
 # Next.js - MDBreact Starter
-A NextJS Project bootstraped with [MDBReact](https://mdbootstrap.com/docs/react). 
+A NextJS Project bootstraped with [Material Design Bootstrap ReactJS](https://mdbootstrap.com/docs/react). 
 
 ## Features 
 * Apollo Client Setup 
