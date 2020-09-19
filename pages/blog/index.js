@@ -1,4 +1,4 @@
-import { MDBContainer } from 'mdbreact';
+import { MDBContainer, MDBRow } from 'mdbreact';
 import React from 'react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
@@ -8,6 +8,7 @@ import Loading from '../../components/Loading';
 import { withApollo } from '../../libs/apolloProvider';
 import { useQuery } from '@apollo/react-hooks';
 import { getAllBlogs } from '../../graphql/blog';
+import BlogPreview from '../../components/BlogPreview';
 
 const BlogsPage = () => {
 
@@ -25,9 +26,9 @@ const BlogsPage = () => {
             desc="Collections of blogs about things and stuff. Read more here."/>
             <MDBContainer className="py-5 my-5">
                 <h1 className="h1-responsive">Blogs Page</h1>
-                <ul>
-                    {blogs && blogs.map(i => <li key={i.id}>{i.title}</li>)}
-                </ul>
+                <MDBRow>
+                    <BlogPreview blogs={blogs}/>
+                </MDBRow>
             </MDBContainer>
         </Layout>
     )
