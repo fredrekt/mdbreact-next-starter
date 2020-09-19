@@ -6,10 +6,10 @@ import SEO from '../components/SEO'
 const MissingPage = () => {
     return (
         <Layout>
-            <SEO title="Page Not Found" 
+            <SEO title="404" 
             desc="Error code 404, we coulnd't find what you we're looking for. Sorry for the Inconvenience."/>
-            <MDBContainer className="py-5">
-                <MDBRow className="align-items-center py-5">
+            <MDBContainer className="py-5 my-5">
+                <MDBRow className="align-items-center py-5 my-5">
                     <MDBCol md="6" lg="6">
                         <div className="content text-center">
                             <h1 className="h1-responsive">Oooopssieee</h1>
