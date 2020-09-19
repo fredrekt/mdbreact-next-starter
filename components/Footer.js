@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <MDBFooter color="black" className="font-small pt-4 mt-4">
+    <MDBFooter color="black" className="font-small pt-4">
       <MDBContainer fluid className="text-center text-md-left py-5">
         <MDBRow>
           <MDBCol md="3">
