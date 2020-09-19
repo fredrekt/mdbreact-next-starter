@@ -26,7 +26,8 @@ const SingleBlog = () => {
     return edges.map(i => (
         <Layout>
             <SEO title={i.node.title} 
-            desc="desc here"/>
+            desc={i.node.description}
+            img={i.node.preview.url} />
             <MDBContainer className="py-5 my-5">
                 <BlogHeader node={i.node}/>
                 <BlogBody node={i.node}/>
