@@ -1,6 +1,15 @@
 # Next.js - MDBreact Starter
 A NextJS Project bootstraped with [MDBReact](https://mdbootstrap.com/docs/react). 
 
+## Features 
+* Apollo Client Setup 
+* Opt for Axios
+* Graphql Ready - Apollo React Hooks
+* SEO Ready
+* Google Analytics 
+* Markdown to JSX 
+* Progressive Image Loader
+
 ## [Live Demo](http://next-mdbreact.ga/)
 
 ## Getting Started
