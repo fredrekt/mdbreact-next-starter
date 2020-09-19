@@ -8,7 +8,7 @@ const BlogsPage = () => {
         <Layout>
             <SEO title="Blogs" 
             desc="Collections of blogs about things and stuff. Read more here."/>
-            <MDBContainer>
+            <MDBContainer className="py-5 my-5">
                 <h1 className="h1-responsive">Blogs Page</h1>
             </MDBContainer>
         </Layout>

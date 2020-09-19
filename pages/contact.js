@@ -8,7 +8,7 @@ const ContactPage = () => {
         <Layout>  
             <SEO title="Contact" 
             desc="Send us a message here. Find out where we are located"/>
-            <MDBContainer className="py-5">
+            <MDBContainer className="py-5 my-5">
                 <MDBRow className="py-4">
                     <MDBCol md="6" lg="6">
                         <h1 className="h1-responsive">Let's Talk</h1>

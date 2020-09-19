@@ -9,7 +9,7 @@ const HomePage = () => {
       <SEO title="Home" 
       desc="About your application here and description of something for
       your search engine optimization."/>
-      <MDBContainer>
+      <MDBContainer className="py-5 my-5">
         <h1>Hello Home</h1>
       </MDBContainer>  
     </Layout>

@@ -8,7 +8,7 @@ const AboutPage = () => {
         <Layout>
             <SEO title="About Us" 
             desc="What you need to know about us. Find out more here."/>
-            <MDBContainer className="py-5">
+            <MDBContainer className="py-5 my-5">
                 <h1 className="h1-responsive mb-5">About MDBReact Starter</h1>
                 <p className="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur metus at viverra suscipit. Morbi efficitur lectus eget arcu suscipit pretium ac sit amet massa. Sed quis laoreet magna. Aliquam erat volutpat. Donec semper dictum nisl nec molestie. Fusce sit amet mi metus. Quisque rhoncus arcu nec velit pharetra, vitae finibus elit vestibulum. Etiam feugiat cursus neque, porttitor blandit massa. Cras nisl mi, bibendum gravida bibendum vestibulum, blandit eu orci. Nam in pharetra purus. In et elit et odio viverra tempus eu volutpat ante. Proin quis lacus non ante viverra feugiat in posuere risus. Morbi congue, tortor non molestie feugiat, lorem ante fermentum velit, eget ultrices quam leo vitae nisi. Cras non bibendum elit.
