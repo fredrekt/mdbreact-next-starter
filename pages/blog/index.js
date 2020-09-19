@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
 import Router from 'next/router';
+import Loading from '../../components/Loading';
 //apollo client
 import { withApollo } from '../../libs/apolloProvider';
 import { useQuery } from '@apollo/react-hooks';
@@ -11,7 +12,7 @@ import { getAllBlogs } from '../../graphql/blog';
 const BlogsPage = () => {
 
     const { data, loading, error } = useQuery(getAllBlogs)
-    if(loading) return <p>loading</p>
+    if(loading) return <Loading/>
     if(error){
         Router.push('/404')
     }
