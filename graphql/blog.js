@@ -1,8 +1,10 @@
+// customize your queries here
+
 import graphql from 'graphql-tag';
 
 export const getAllBlogs = graphql`
     query{
-        blogs{
+        blogs(where: {title_not: "#Throwback Classics"}){
             id
             title
             description
