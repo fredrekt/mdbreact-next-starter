@@ -10,7 +10,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
     "axios": "^0.20.0",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
+    "isomorphic-unfetch": "^3.0.0",
     "markdown-to-jsx": "^7.0.0",
     "mdbreact": "^4.27.0",
     "next": "9.5.3",
