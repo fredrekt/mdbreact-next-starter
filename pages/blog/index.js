@@ -1,4 +1,4 @@
-import { MDBContainer, MDBRow } from 'mdbreact';
+import { MDBAnimation, MDBContainer, MDBRow } from 'mdbreact';
 import React from 'react';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
@@ -25,10 +25,14 @@ const BlogsPage = () => {
             <SEO title="Blogs" 
             desc="Collections of blogs about things and stuff. Read more here."/>
             <MDBContainer className="py-5 my-5">
-                <h1 className="h1-responsive">Blogs Page</h1>
-                <MDBRow>
-                    <BlogPreview blogs={blogs}/>
-                </MDBRow>
+                <MDBAnimation type="fadeInUp" reveal>
+                    <h1 className="h1-responsive">Blogs Page</h1>
+                </MDBAnimation>    
+                <MDBAnimation type="fadeInUp" reveal>
+                    <MDBRow>
+                        <BlogPreview blogs={blogs}/>
+                    </MDBRow>
+                </MDBAnimation>
             </MDBContainer>
         </Layout>
     )

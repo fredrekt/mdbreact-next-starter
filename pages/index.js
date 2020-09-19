@@ -99,28 +99,30 @@ const HomePage = () => {
         </MDBRow>
         <MDBRow className="py-4">
           <MDBCol lg="8" md="8">
-            <div className="content">
-              <h3 className="h3-responsive">
-                Check out my other starters
-              </h3>
-              <div className="d-flex flex-column">
-                <a href="https://github.com/fredrekt/gatsby-starter-base-web" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
-                  Gatsby - Minimalist Starter 
-                </a>
-                <a href="https://github.com/fredrekt/Patterns-Landing-Page" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
-                  React SPA - Patterns Landing Page 
-                </a>
-                <a href="https://github.com/fredrekt/gatsby-starter-mdbreact" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
-                  Gatsby - MDBReact Starter 
-                </a>
-                <a href="https://github.com/fredrekt/Minimalist-SPA-Template" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
-                  React SPA - Minimalist Starter 
-                </a>
-                <a href="https://github.com/fredrekt/minimalist-next-starter" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
-                  Next - Minimalist Starter
-                </a>
+            <MDBAnimation type="fadeInUp" reveal>
+              <div className="content">
+                <h3 className="h3-responsive">
+                  Check out my other starters
+                </h3>
+                <div className="d-flex flex-column">
+                  <a href="https://github.com/fredrekt/gatsby-starter-base-web" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
+                    Gatsby - Minimalist Starter 
+                  </a>
+                  <a href="https://github.com/fredrekt/Patterns-Landing-Page" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
+                    React SPA - Patterns Landing Page 
+                  </a>
+                  <a href="https://github.com/fredrekt/gatsby-starter-mdbreact" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
+                    Gatsby - MDBReact Starter 
+                  </a>
+                  <a href="https://github.com/fredrekt/Minimalist-SPA-Template" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
+                    React SPA - Minimalist Starter 
+                  </a>
+                  <a href="https://github.com/fredrekt/minimalist-next-starter" target="_blank" rel="noopener noreferer" className="h5-responsive black-text">
+                    Next - Minimalist Starter
+                  </a>
+                </div>
               </div>
-            </div>
+            </MDBAnimation>
           </MDBCol>
         </MDBRow>
       </MDBContainer>  
