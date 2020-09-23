@@ -29,7 +29,7 @@ const ContactPage = () => {
                                     <MDBInput type="textarea" label="Your Message *" rows="5" />   
                                 </div>
                                 <div className="my-3">
-                                    <MDBBtn color="dark" className="mx-0 text-capitalize" type="submit">Send Message</MDBBtn>
+                                    <MDBBtn color="dark">Send Message</MDBBtn>
                                 </div>
                             </form>
                         </MDBAnimation>
