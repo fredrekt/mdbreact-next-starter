@@ -1,3 +1,4 @@
+import App from 'next/app';
 import '../styles/globals.css'
 //mdbreact imports
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -17,8 +18,21 @@ Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done()); 
 Router.events.on('routeChangeError', () => NProgress.done());
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+class MyApp extends App {
+  static async getInitialProps({ Component, ctx }) {
+    let pageProps = {}
+
+    if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx)
+    }
+
+    return { pageProps }
+  }
+
+  render() {
+    const { Component, pageProps } = this.props
+    return <Component {...pageProps} />
+  }
 }
 
 export default withGA(process.env.NEXT_PUBLIC_GA_ID, Router)(MyApp)
