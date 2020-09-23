@@ -16,11 +16,21 @@ const ContactPage = () => {
                         </MDBAnimation>
                         <MDBAnimation type="fadeInUp" reveal>
                             <form action="">
-                                <MDBInput label="Your Name *" />
-                                <MDBInput label="Your Email *" />
-                                <MDBInput label="Your Message *" />
-                                <MDBInput type="textarea" label="Your Message *" rows="5" />
-                                <MDBBtn color="dark" className="mx-0 text-capitalize" type="submit">Send Message</MDBBtn>
+                                <div className="my-3">
+                                    <MDBInput label="Your Name *" />
+                                </div>
+                                <div className="my-3">
+                                    <MDBInput label="Your Email *" />
+                                </div>
+                                <div className="my-3">
+                                    <MDBInput label="Your Message *" />
+                                </div>
+                                <div className="my-3">
+                                    <MDBInput type="textarea" label="Your Message *" rows="5" />   
+                                </div>
+                                <div className="my-3">
+                                    <MDBBtn color="dark" className="mx-0 text-capitalize" type="submit">Send Message</MDBBtn>
+                                </div>
                             </form>
                         </MDBAnimation>
                     </MDBCol>
